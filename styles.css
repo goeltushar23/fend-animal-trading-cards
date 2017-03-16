@@ -1,0 +1,47 @@
+/* add your CSS here */
+body {
+  font-family: Helvitica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.animal-card{
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+  padding: 15px;
+  width: 300px;
+}
+
+.card-heading {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top:10px;
+}
+
+.outer-container img {
+  margin-bottom: 10px;
+  clear:both;
+}
+
+.inner-container{
+  border: 1px solid #ccc;
+  padding: 5px 15px;
+  clear:both;
+}
+
+.interesting-fact{
+  font-style: italic;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.list li{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.list > li > span {
+  font-weight: bold;
+}
